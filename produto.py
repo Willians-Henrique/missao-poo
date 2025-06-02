@@ -9,3 +9,6 @@ class Produto:
 
     def  preco_final(self):
         print(f"Preço final do produto {self.nome}: R${self.preco}")
+
+    def emitir_nota(self):
+        print("Nota gerada para PRODUTO.") 

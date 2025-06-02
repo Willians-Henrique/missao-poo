@@ -10,3 +10,6 @@ class ProdutoImportado(Produto):
 
     def preco_final(self):
         print(f"Preço final do produto {self.nome}: R${self.preco * (1 + self.taxa_importacao)}")
+
+    def emitir_nota(self):
+        print("Nota de importação para PRODUTO com taxa aplicada.")    
