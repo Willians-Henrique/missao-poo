@@ -6,3 +6,6 @@ class Produto:
 
     def exibir_detalhes(self):
          print(f"Produto: {self.nome} | Preço: R${self.preco} | Estoque: {self.estoque} unidades")
+
+    def  preco_final(self):
+        print(f"Preço final do produto {self.nome}: R${self.preco}")

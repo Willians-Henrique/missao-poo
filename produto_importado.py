@@ -7,3 +7,6 @@ class ProdutoImportado(Produto):
 
     def exibir_detalhes(self):
         print(f"Produto: {self.nome} | Preço: R${self.preco} | Estoque: {self.estoque} unidades| Taxa de importação: {self.taxa_importacao}")    
+
+    def preco_final(self):
+        print(f"Preço final do produto {self.nome}: R${self.preco * (1 + self.taxa_importacao)}")
