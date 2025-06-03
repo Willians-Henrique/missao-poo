@@ -12,3 +12,9 @@ class Produto:
 
     def emitir_nota(self):
         print("Nota gerada para PRODUTO.") 
+
+    def repor(self, quantidade):
+        self.estoque += quantidade
+        
+    def vender(self, quantidade):
+        self.estoque -= quantidade
